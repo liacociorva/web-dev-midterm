@@ -1,0 +1,105 @@
+* {
+box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("stickers.jpeg");
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Patrick Hand';
+  color: #ffb5da;
+}
+
+
+.navWrapper{
+  display: flex;
+  justify-content: center;
+  padding: 1vmin;
+  margin: 6vmin;
+  font-size: 4vmin;
+  background-color: #DF600C;
+}
+
+.navMenu{
+  display: flex;
+  width: 50vmin;
+  justify-content: space-between;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ba1a6a;
+}
+
+
+.mainContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.contentContainer{
+  display: flex;
+	background-image: url("collage.jpeg");
+  padding: 2vmin;
+  flex-wrap: wrap;
+  object-fit: contain;
+  justify-content: space-around;
+
+}
+
+
+
+.contentContainer div{
+  width: 30%;
+  object-fit: contain;
+  background-color: #ff9f87;
+  color: #ba1a6a;
+  padding: 2vmin;
+  margin: 2vmin;
+  font-size: 3vmin;
+}
+
+
+
+.contentContainer .textBox{
+  font-size: 4vmin;
+  padding: 3vmin;
+  background-color: #ba1a6a;
+  color: white;
+  width: 60%;
+}
+
+
+.header{
+  display: flex;
+  padding: 0px;
+  margin: 10vmin;
+  color: #ba1a6a;
+  font-size:8vmin;
+  background-color: #ff9f87;
+  align-self: center;
+  justify-content: center;
+  font-family: "Shizuru";
+
+}
+
+
+img {
+  width: 100%;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+
+
+.footer *{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px;
+  margin: 0px;
+}
