@@ -81,9 +81,10 @@ a:hover{
 
 #sticker5{
   position: absolute;
+  transform: rotate(30deg);
   width: 15%;
-  top: 140%;
-  right: 85%;
+  top: 160%;
+  right: 55%;
 }
 
 #sticker6{
@@ -123,6 +124,44 @@ a:hover{
   right: 5%;
 }
 
+#sticker11{
+  position: absolute;
+  transform: rotate(20deg);
+  width: 10%;
+  top: 75%;
+  right: 35%;
+}
+
+#sticker12{
+  position: absolute;
+  width: 15%;
+  top: 157%;
+  right: 3%;
+}
+
+#sticker13{
+  position: absolute;
+  transform: rotate(-20deg);
+  width: 20%;
+  top: 130%;
+  right: 85%;
+}
+
+#sticker14{
+  position: absolute;
+  width: 15%;
+  top: 70%;
+  right: 3%;
+}
+
+#sticker15{
+  position: absolute;
+transform: rotate(-20deg);
+  width: 15%;
+  top: 74%;
+  right: 52%;
+}
+
 
 .contentContainer{
   display: flex;
@@ -144,6 +183,11 @@ a:hover{
   font-size: 4vmin;
   align-items: center;
   align-self: center;
+}
+
+.contentContainer .caption{
+  text-align: center;
+  font-size: 3vmin;
 }
 
 .contentContainer .gifs{
