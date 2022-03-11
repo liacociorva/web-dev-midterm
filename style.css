@@ -13,6 +13,7 @@ body {
 
 
 .navWrapper{
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   padding: 1vmin;
@@ -36,11 +37,92 @@ a:hover{
   color: #ba1a6a;
 }
 
+.activeLink{
+  color: #ffa6c5;
+}
+
 
 .mainContainer{
   display: flex;
   flex-direction: row;
 }
+
+#sticker1{
+  position: absolute;
+  transform: rotate(10deg);
+  width: 17%;
+  top: 80%;
+  right: 60%;
+}
+
+
+#sticker2{
+  position: absolute;
+  transform: rotate(20deg);
+  width: 15%;
+  top: 130%;
+  right: 65%;
+}
+
+#sticker3{
+  position: absolute;
+  width: 15%;
+  top: 60%;
+  right: 75%;
+}
+
+#sticker4{
+  position: absolute;
+  transform: rotate(10deg);
+  width: 15%;
+  top: 55%;
+  right: 20%;
+}
+
+#sticker5{
+  position: absolute;
+  width: 15%;
+  top: 140%;
+  right: 85%;
+}
+
+#sticker6{
+  position: absolute;
+  width: 15%;
+  top: 110%;
+  right: 65%;
+}
+
+#sticker7{
+  position: absolute;
+  transform: rotate(350deg);
+  width: 12%;
+  top: 80%;
+  right: 86%;
+}
+
+#sticker8{
+  position: absolute;
+  width: 15%;
+  top: 110%;
+  right: 85%;
+}
+
+#sticker9{
+  position: absolute;
+  width: 15%;
+  top: 55%;
+  right: 63%;
+}
+
+#sticker10{
+  position: absolute;
+  transform: rotate(20deg);
+  width: 15%;
+  top: 60%;
+  right: 5%;
+}
+
 
 .contentContainer{
   display: flex;
@@ -51,22 +133,31 @@ a:hover{
   justify-content: space-around;
 
 }
-
-
-
 .contentContainer div{
+  border-radius: 25px;
   width: 30%;
   object-fit: contain;
   background-color: #ff9f87;
   color: #ba1a6a;
   padding: 2vmin;
   margin: 2vmin;
-  font-size: 3vmin;
+  font-size: 4vmin;
+  align-items: center;
+  align-self: center;
+}
+
+.contentContainer .gifs{
+  display: flex;
+  width: 30%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
 }
 
 
 
 .contentContainer .textBox{
+  align-self: center;
   font-size: 4vmin;
   padding: 3vmin;
   background-color: #ba1a6a;
@@ -76,20 +167,29 @@ a:hover{
 
 
 .header{
+  border-radius: 25px;
   display: flex;
-  padding: 0px;
+  padding: 2vmin;
   margin: 10vmin;
   color: #ba1a6a;
   font-size:8vmin;
-  background-color: #ff9f87;
+  background-image: linear-gradient(#DF600C, #ff9f87, #ffa6c5);
+white-space: nowrap;
   align-self: center;
   justify-content: center;
+  text-align: center;
   font-family: "Shizuru";
+}
 
+.header img{
+  padding: 2vmin;
+  width: 20%;
+  align-self: center;
 }
 
 
-img {
+.mainContainer img {
+  border-radius: 25px;
   width: 100%;
   flex-flow: column wrap;
   justify-content: space-around;
@@ -99,7 +199,11 @@ img {
 
 .footer *{
   display: flex;
-  justify-content: flex-end;
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.footer img{
+  width: 15%;
 }
